@@ -1,0 +1,11 @@
+.guides {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 530px;
+    padding-left: 49px;
+  }
+}

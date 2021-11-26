@@ -1,0 +1,14 @@
+.testimonial {
+  margin-bottom: 270px;
+  &-heading {
+    margin-bottom: 60px;
+  }
+  &-main {
+    max-width: 1085px;
+    padding-left: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

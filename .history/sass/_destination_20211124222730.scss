@@ -1,0 +1,30 @@
+.destination {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+  }
+  &-more {
+    color: $primary-color;
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+  }
+
+  &-item {
+    height: 337px;
+    position: relative;
+  }
+  &-image img {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}

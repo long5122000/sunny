@@ -1,0 +1,18 @@
+.explore {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 50px;
+  }
+  &-content {
+    max-width: 508px;
+    padding-right: 27px;
+  }
+  &-image {
+    transform: translateX(-50px);
+  }
+  &-heading {
+    margin-bottom: 30px;
+  }
+}

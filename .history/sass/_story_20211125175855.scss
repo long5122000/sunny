@@ -1,0 +1,48 @@
+.story {
+  margin-bottom: 270px;
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 0 50px;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    padding: 0 50px;
+  }
+  &-image {
+    height: 230px;
+    margin-bottom: 20px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+      object-position: top;
+    }
+  }
+  &-title {
+    font-size: 19px;
+    color: #000;
+    margin-bottom: 15px;
+    line-height: 158%;
+  }
+  &-desc {
+    margin-bottom: 23px;
+    line-height: 175%;
+    font-size: 15px;
+    color: $gray-darker;
+  }
+  &-more {
+    font-size: 15px;
+    font-weight: 600;
+    color: $primary-color;
+  }
+  &-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
